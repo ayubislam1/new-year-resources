@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 * {
 	margin: 0;
 	padding: 0;
 }
 body {
 	font-family: "Merriweather", serif;
+}
+/* share style */
+.red-color {
+	color: #ff0000;
 }
 /* banner style */
 .banner-container {
@@ -33,4 +38,29 @@ body {
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 	margin-top: -150px;
+}
+/* offer section style */
+.offer-container {
+	text-align: center;
+}
+.offer-title {
+	font-size: 88px;
+	font-weight: bold;
+	font-family: "Inter", sans-serif;
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+.offer-description {
+	font-size: 24px;
+	font-weight: 500;
+}
+.offer-category-title {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+.offer-img {
+	height: 500px;
+	width: 800px;
+	margin-top: 47px;
 }
