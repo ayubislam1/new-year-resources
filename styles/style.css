@@ -110,4 +110,10 @@ body {
 	position: absolute;
 	margin: 434px 1069px 142px 158px;
 	color: white;
+	background-color: transparent;
+	padding: 10px;
+	border: none;
+}
+.welcome-join-text:hover {
+	border: 1px solid white;
 }
